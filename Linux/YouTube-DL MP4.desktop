@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=YouTube-DL MP4
+Comment=Zum herunterladen von Videos auf YouTube und anderen Plattformen
+Exec=bash /Pfad/zu/YouTube-MP4.sh
+Icon=/Pfad/zum/Icon.png
+Terminal=true
+Type=Application
+Categories=Network;
