@@ -3,7 +3,7 @@ cls
 :start
 ECHO.
 ECHO ---------------------------------------------------
-ECHO YouTube-DL MP4 v.1.3 20210919 by Monstanner
+ECHO YouTube-DL MP4 v. 1.3.1 20210919 by Monstanner
 ECHO ---------------------------------------------------
 ECHO 1. 144p (Low-Definition)
 ECHO 2. 240p (Low-Definition)
@@ -149,8 +149,8 @@ EXIT
 :14
 ECHO ---------------------------------------------------
 ECHO YouTube-DL MP4 ist ein Terminal Script und wurde von Monstanner erstellt.
-ECHO YouTube-DL gibt es fuer GNU/Linux und Windows.
-ECHO Aktuelle Version: 1.3 20210919
+ECHO YouTube-DL MP4 gibt es für GNU/Linux und Windows.
+ECHO Aktuelle Version: 1.3.1 20210919
 ECHO Link zu YouTube-DL MP4: www.github.com/monstanner
 ECHO ---------------------------------------------------
 goto start
