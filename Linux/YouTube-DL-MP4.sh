@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo ---------------------------------------------------
-echo YouTube-DL MP4 v.1.3 20210919 by Monstanner
+echo YouTube-DL MP4 v. 1.3.1 20210919 by Monstanner
 echo ---------------------------------------------------
 
 cd #Hier bitte den Pfad eingeben, wo das Video gespeichert werden soll.
@@ -172,8 +172,8 @@ do
           "Über")
               echo ---------------------------------------------------
               echo YouTube-DL MP4 ist ein Terminal Script und wurde von Monstanner erstellt.
-              echo YouTube-DL gibt es für GNU/Linux und Windows.
-              echo Aktuelle Version: 1.3 20210919
+              echo YouTube-DL MP4 gibt es für GNU/Linux und Windows.
+              echo Aktuelle Version: 1.3.1 20210919
               echo Link zu YouTube-DL MP4: www.github.com/monstanner
               echo ---------------------------------------------------
               ;;
