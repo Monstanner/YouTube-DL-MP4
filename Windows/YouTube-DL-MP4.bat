@@ -2,8 +2,9 @@
 cls
 :start
 ECHO.
+ECHO OFF
 ECHO ---------------------------------------------------
-ECHO YouTube-DL MP4 v. 1.3.1 20210919 by Monstanner
+ECHO YouTube-DL MP4 v. 1.3.2 20210919 by Monstanner
 ECHO ---------------------------------------------------
 ECHO 1. 144p (Low-Definition)
 ECHO 2. 240p (Low-Definition)
@@ -46,7 +47,7 @@ goto start
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 160+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 160+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -54,7 +55,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 133+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 133+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -62,7 +63,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 134+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 134+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -70,7 +71,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 135+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 135+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -78,7 +79,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 136+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 136+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -86,7 +87,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 136+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 136+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -94,7 +95,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 137+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 137+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -102,7 +103,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 299+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 299+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -110,7 +111,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 400+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 400+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -118,7 +119,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 400+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 400+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -126,7 +127,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 401+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 401+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -134,7 +135,7 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f 401+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f 401+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
@@ -142,15 +143,15 @@ EXIT
 @ECHO OFF
 SET /P URL="[Fuege den Link zum Video ein. (Rechtsklick > Einfuegen > Enter)] "
 ECHO.
-youtube-dl -f bestvideo+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(titel)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
+youtube-dl -f bestvideo+bestaudio --merge-output-format mp4 -o "#Bitte die ReadMe.txt lesen./%%(title)s.%%(ext)s" -i --ignore-config --hls-prefer-native %URL%
 ECHO.
 PAUSE
 EXIT
 :14
 ECHO ---------------------------------------------------
 ECHO YouTube-DL MP4 ist ein Terminal Script und wurde von Monstanner erstellt.
-ECHO YouTube-DL MP4 gibt es für GNU/Linux und Windows.
-ECHO Aktuelle Version: 1.3.1 20210919
+ECHO YouTube-DL MP4 gibt es fuer GNU/Linux und Windows.
+ECHO Aktuelle Version: 1.3.2 20210919
 ECHO Link zu YouTube-DL MP4: www.github.com/monstanner
 ECHO ---------------------------------------------------
 goto start
